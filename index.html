@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/public/css/global.css">
+    <link rel="stylesheet" href="./src/public/css/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbarpc">
+        <ul>
+            <li><img width="100px" src="https://animedesign.com.br/assets/images/index-meta.png" alt=""></li>
+        </ul>
+        <ul class="container-links">
+            <li><div class="searchicon"><i class='bx bx-search-alt-2'></i><p>Pesquisar...</p></div></i><input class="search" type="text"></li>
+            <li><a class="actived" href="#">Home</a></li>
+            <li><a href="#">Animes</a></li>
+            <li><a href="#">Novos</a></li>
+            <li><a href="#">Populares</a></li>
+        </ul>
+        <ul id="logado" class="logado">
+            <i class='bx bxs-bell lg'></i>
+            <li><img id="avatar" class="avatar" src="" alt=""></li>
+            <i class='bx bx-dots-horizontal-rounded lg'></i>
+        </ul>
+        <ul id="deslogado">
+            <button class="button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                </svg>
+                <div class="text">
+                  Logar
+                </div>
+              </button>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="container-right">
+            <img class="banner" src="https://images2.alphacoders.com/127/thumb-1920-1279216.jpg" alt="">
+        </div>
+    </section>
+
+</body>
+<script src="./src/private/api.js"></script>
+</html>

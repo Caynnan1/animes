@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbarpc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbarpc ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+.navbarpc a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbarpc .actived{
+    color: gold;
+}
+
+.container-links{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.logado{
+    display: flex;
+    align-items: center;
+    gap: 10px !important; 
+}
+
+.lg{
+    color: white;
+    font-size: 20px;
+}
+
+.search{
+    background-color: #212121ff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.searchicon{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+    gap: 5px;
+    color: white;
+}
+
+.button {
+    background-color: #ffffff00;
+    color: #fff;
+    width: 8.5em;
+    height: 2.9em;
+    border: gold 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover {
+    background-color: gold;
+    cursor: pointer;
+  }
+  
+  .button svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin: 0 1.5em
+  }
